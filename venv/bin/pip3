@@ -1,4 +1,4 @@
-#!/home/lily/Documents/Projects/Blog/virtual-environment-Blog/bin/python3
+#!/home/lily/Documents/Projects/Blog/venv/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys

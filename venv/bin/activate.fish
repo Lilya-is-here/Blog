@@ -29,7 +29,7 @@ end
 # unset irrelevant variables
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/home/lily/Documents/Projects/Blog/virtual-environment-Blog"
+set -gx VIRTUAL_ENV "/home/lily/Documents/Projects/Blog/venv"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH
@@ -52,8 +52,8 @@ if test -z "$VIRTUAL_ENV_DISABLE_PROMPT"
         set -l old_status $status
 
         # Prompt override?
-        if test -n "(virtual-environment-Blog) "
-            printf "%s%s" "(virtual-environment-Blog) " (set_color normal)
+        if test -n "(venv) "
+            printf "%s%s" "(venv) " (set_color normal)
         else
             # ...Otherwise, prepend env
             set -l _checkbase (basename "$VIRTUAL_ENV")
