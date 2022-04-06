@@ -1,24 +1,21 @@
+{% extends 'base.html'%}
+
 <!DOCTYPE html>
 <html lang="en">
 
     <head>
-	
+		{% block head %} 
     <meta charset="utf-8" />	 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Web developer" />
-
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />	   
-    <link href="css/style.css" rel="stylesheet" type="text/css" />
-	<link href="img/favicon.png" rel="shortcut icon" />
-	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900" rel="stylesheet">
-	
 	<script src="js/modernizr.js"></script>
 
 	<title>Web developer</title>
-
+	{% endblock %}
 	</head>
 	   <body>
-	   
+		{% block body %} 
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900" >
 <!--- PAGE LOADING --->	
 <div class="preloading fadeIn">
 
@@ -162,7 +159,7 @@
 
 </div>
 <!--- THE PAGE LOADING --->		
-		
+{% endblock %}  
 		</body>		
 		
 </html>
